@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/react-arch51" mode="merge"/>
+    <filter root="/content/react-arch51" mode="merge"/>
+    <filter root="/content/dam/react-arch51" mode="merge">
+        <exclude pattern="/content/dam/react-arch51(/.*)?"/>
+        <include pattern="/content/dam/react-arch51/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/react-arch51/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/react-arch51" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/react-arch51",
+        "create path (nt:unstructured) /content/dam/react-arch51/jcr:content",
+        "set properties on /content/dam/react-arch51/jcr:content\n  set cq:conf{String} to /conf/react-arch51\n  set jcr:title{String} to \"react-arch51\"\nend"
+    ]
+}
