@@ -34,12 +34,13 @@ class Text extends Component {
         dangerouslySetInnerHTML={{
           __html: sanitizeHtml(this.props.text, sanitizeWhiteList)
         }}
+        myprop="sdsdsdsds"
       />
     );
   }
 
   get textContent() {
-    return <div>{this.props.text}</div>;
+    return <div>{this.props.text} FROM REACT NOT RICH</div>;
   }
 
   render() {

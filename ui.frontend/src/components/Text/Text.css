@@ -21,7 +21,7 @@ h4,
 h5,
 h6,
 p {
-  border: 0;
+  border: 5px solid green;
   font-size: 100%;
   margin: 0;
   padding: 0;
